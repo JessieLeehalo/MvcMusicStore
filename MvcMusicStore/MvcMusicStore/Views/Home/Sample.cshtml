@@ -1,6 +1,9 @@
 ﻿
 @{
-    Layout = null;
+    // Layout = null;
+    // This is a block of code. For demonstration purposes,
+    // We'll create a "model" inline.
+    var items = new string[] { "one", "two", "three" };
 }
 
 <!DOCTYPE html>
@@ -11,9 +14,15 @@
     <title>Sample</title>
 </head>
 <body>
-    <h1>@ViewBag.Message</h1>
-    <p>This is a sample view. It's not much to look at but it gets the job done.</p>
-    <div> 
-    </div>
+    @*<h1>@ViewBag.Message</h1>*@
+    <h3>Listing @items.Length items.</h3>
+    @*<p>This is a sample view. It's not much to look at but it gets the job done.</p>*@    
+    <ul>
+        @foreach(var item in items)
+        {
+            <li>The item name is @item.</li>
+        }
+    </ul>
+        
 </body>
 </html>
