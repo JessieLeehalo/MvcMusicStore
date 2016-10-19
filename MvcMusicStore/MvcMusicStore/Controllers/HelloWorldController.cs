@@ -19,10 +19,18 @@ namespace MvcMusicStore.Controllers
             return View();
         }
 
-        public string Welcome(string name, int id)
+        public ActionResult Welcome(string name, int numTimes = 1)
         {
-            // http://localhost:xxxx/HelloWorld/Welcome?name=Jessie&id=7
-            return HttpUtility.HtmlEncode("Hello " + name + " , NumTimes is " + id);
+            ViewBag.Message = "Hello " + name;
+            ViewBag.NumTimes = numTimes;
+
+            return View();
         }
+
+        //public string Welcome(string name, int id)
+        //{
+        //    // http://localhost:xxxx/HelloWorld/Welcome?name=Jessie&id=7
+        //    return HttpUtility.HtmlEncode("Hello " + name + " , NumTimes is " + id);
+        //}
     }
 }
