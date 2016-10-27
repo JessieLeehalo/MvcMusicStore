@@ -80,3 +80,5 @@ C:\workstation\CS_Project\MVC\MvcMusicStore\MvcMusicStore\MvcMusicStore\bin\Micr
 C:\workstation\CS_Project\MVC\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csprojResolveAssemblyReference.cache
 C:\workstation\CS_Project\MVC\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.dll
 C:\workstation\CS_Project\MVC\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.pdb
+C:\workstation\CS_Project\MVC\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.Migrations.AddAlbumsTable.resources
+C:\workstation\CS_Project\MVC\MvcMusicStore\MvcMusicStore\MvcMusicStore\obj\Debug\MvcMusicStore.csproj.GenerateResource.Cache
